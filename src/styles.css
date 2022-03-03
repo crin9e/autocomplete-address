@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(240, 238, 247);
+    font: normal 14px/1.33 'Open Sans Regular', Helvetica, Arial, Tahoma, sans-serif;
+}
+
+input:required {
+    border: 1px solid red;
+  }
+
+.autocomplete__container{
+    min-height: 50px;
+}
+
+.suggestion-highlight {
+    background-color: orange;
+}
+.suggestions__container{
+    display: block;
+    position: absolute;
+    max-width: 300px;
+    max-height: 150px;
+    z-index: 9999;
+    overflow-y:auto;
+    background-color: white;
+}
+
+.suggestionObj{
+    display: block;
+    white-space: pre-wrap;
+    max-height: 300px;
+    overflow-y:auto;
+    border: 1px solid;
+    border-color: black;
+}
+.json-object{
+    display: block;
+    background-color: white;
+}
+.suggestion:hover{
+    background-color: #008c8c;
+}
+h5{
+    margin: 0px;
+}
+.suggestion-list{
+    position: relative;
+}
+
+#autocomplete-input{
+    width: 220px;
+}
